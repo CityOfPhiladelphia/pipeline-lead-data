@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "name": "census_tract",
+      "type": "string",
+      "title": "Census Tract"
+    },
+    {
+      "name": "children_with_bll_gte_5_micrograms_per_deciliter",
+      "type": "integer",
+      "title": "Children with BLLs ≥5µg/dL"
+    },
+    {
+      "name": "children_lt_6_screened",
+      "type": "integer",
+      "title": "Children <6 Screened"
+    },
+    {
+      "name": "percent_children_with_bll_gte_5_micrograms_per_deciliter",
+      "type": "number",
+      "title": "Percent of Children Screened with BLLs ≥5µg/dL"
+    },
+    {
+      "name": "shape",
+      "type": "geojson",
+      "title": "Census Tract Shape"
+    }
+  ],
+  "primaryKey": ["census_tract"]
+}
