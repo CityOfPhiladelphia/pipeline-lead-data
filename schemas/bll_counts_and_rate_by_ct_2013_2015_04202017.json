@@ -6,17 +6,17 @@
       "title": "Census Tract"
     },
     {
-      "name": "children_with_bll_gte_5_micrograms_per_deciliter",
+      "name": "num_bll_5plus",
       "type": "integer",
       "title": "Children with BLLs ≥5µg/dL"
     },
     {
-      "name": "children_lt_6_screened",
+      "name": "num_screen",
       "type": "integer",
       "title": "Children <6 Screened"
     },
     {
-      "name": "percent_children_with_bll_gte_5_micrograms_per_deciliter",
+      "name": "perc_5plus",
       "type": "number",
       "title": "Percent of Children Screened with BLLs ≥5µg/dL"
     },
